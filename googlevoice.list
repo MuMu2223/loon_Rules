@@ -1,1 +1,18 @@
+[Rule]
+# Google Voice 走代理
+DOMAIN-SUFFIX,voice.google.com,PROXY
+DOMAIN-SUFFIX,www.google.com,PROXY
+DOMAIN-SUFFIX,voiceapis.google.com,PROXY
+DOMAIN-SUFFIX,clients6.google.com,PROXY
+DOMAIN-SUFFIX,clients4.google.com,PROXY
+DOMAIN-SUFFIX,ssl.gstatic.com,PROXY
+DOMAIN-SUFFIX,www.gstatic.com,PROXY
+DOMAIN-SUFFIX,www.googleapis.com,PROXY
+DOMAIN-SUFFIX,accounts.google.com,PROXY
+DOMAIN-SUFFIX,oauth2.googleapis.com,PROXY
+DOMAIN-SUFFIX,www.googleusercontent.com,PROXY
+DOMAIN-SUFFIX,storage.googleapis.com,PROXY
 DOMAIN-SUFFIX,lens.l.google.com,PROXY
+
+# 默认策略，未匹配的也走代理
+FINAL,PROXY
