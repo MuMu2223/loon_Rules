@@ -1,17 +1,20 @@
-#NAME: Binance 直连规则
-DOMAIN-SUFFIX,appsflayer.com
-DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binancefuture.com
-DOMAIN-SUFFIX,bnappzh.co
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bnbzh.ac
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,saasexch.cc
-DOMAIN-SUFFIX,saasexch.com
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,mokexapp.io
-DOMAIN-SUFFIX,festream.saasexch.co
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,d3sknckuh1o9tg.cloudfront.net
+[Rule]
+# Binance 直连规则
+DOMAIN-SUFFIX,appsflayer.com,DIRECT
+DOMAIN-SUFFIX,binance.cloud,DIRECT
+DOMAIN-SUFFIX,binance.me,DIRECT
+DOMAIN-SUFFIX,binancecnt.com,DIRECT
+DOMAIN-SUFFIX,binancefuture.com,DIRECT
+DOMAIN-SUFFIX,bnappzh.co,DIRECT
+DOMAIN-SUFFIX,bnbstatic.com,DIRECT
+DOMAIN-SUFFIX,bnbzh.ac,DIRECT
+DOMAIN-SUFFIX,bntrace.com,DIRECT
+DOMAIN-SUFFIX,saasexch.cc,DIRECT
+DOMAIN-SUFFIX,saasexch.com,DIRECT
+DOMAIN-SUFFIX,binance.info,DIRECT
+DOMAIN-SUFFIX,mokexapp.io,DIRECT
+DOMAIN-SUFFIX,festream.saasexch.co,DIRECT
+DOMAIN-SUFFIX,d3sknckuh1o9tg.cloudfront.net,DIRECT
+
+# 默认策略，未匹配的走 PROXY
+FINAL,PROXY
