@@ -1,8 +1,8 @@
 # Reddit
-- DOMAIN-SUFFIX,redd.it,PROXY
-- DOMAIN-SUFFIX,reddit.com,PROXY
-- DOMAIN-SUFFIX,redditinc.com,PROXY
-- DOMAIN-SUFFIX,redditmail.com,PROXY
-- DOMAIN-SUFFIX,redditmedia.com,PROXY
-- DOMAIN-SUFFIX,redditstatic.com,PROXY
-- DOMAIN-SUFFIX,redditstaus.com,PROXY
+DOMAIN-SUFFIX,redd.it,PROXY
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditinc.com,PROXY
+DOMAIN-SUFFIX,redditmail.com,PROXY
+DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
+DOMAIN-SUFFIX,redditstaus.com,PROXY
