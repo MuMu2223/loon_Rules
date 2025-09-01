@@ -1,0 +1,24 @@
+[Rule]
+# Reddit 移动端完整代理规则
+DOMAIN-SUFFIX,redd.it,PROXY
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditinc.com,PROXY
+DOMAIN-SUFFIX,redditmail.com,PROXY
+DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
+DOMAIN-SUFFIX,redditstatus.com,PROXY
+DOMAIN-SUFFIX,oauth.reddit.com,PROXY
+DOMAIN-SUFFIX,api.reddit.com,PROXY
+DOMAIN-SUFFIX,gateway.reddit.com,PROXY
+DOMAIN-SUFFIX,preview.redd.it,PROXY
+DOMAIN-SUFFIX,i.redd.it,PROXY
+DOMAIN-SUFFIX,v.redd.it,PROXY
+DOMAIN-SUFFIX,sp.reddit.com,PROXY
+DOMAIN-SUFFIX,ads.reddit.com,PROXY
+DOMAIN-SUFFIX,www.redditmedia.com,PROXY
+DOMAIN-SUFFIX,new.reddit.com,PROXY
+DOMAIN-SUFFIX,www.reddit.com,PROXY
+DOMAIN-SUFFIX,np.reddit.com,PROXY
+
+# 默认策略，未匹配的也走代理
+FINAL,PROXY
