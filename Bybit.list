@@ -1,0 +1,16 @@
+[Rule]
+# Bybit 交易所走代理
+DOMAIN-SUFFIX,bybit.com,PROXY
+DOMAIN-SUFFIX,www.bybit.com,PROXY
+DOMAIN-SUFFIX,api.bybit.com,PROXY
+DOMAIN-SUFFIX,api-testnet.bybit.com,PROXY
+DOMAIN-SUFFIX,sso.bybit.com,PROXY
+DOMAIN-SUFFIX,auth.bybit.com,PROXY
+DOMAIN-SUFFIX,static.bybit.com,PROXY
+DOMAIN-SUFFIX,img.bybit.com,PROXY
+DOMAIN-SUFFIX,cdn.bybit.com,PROXY
+DOMAIN-SUFFIX,help.bybit.com,PROXY
+DOMAIN-SUFFIX,blog.bybit.com,PROXY
+
+# 默认策略，未匹配的也走代理
+FINAL,PROXY
