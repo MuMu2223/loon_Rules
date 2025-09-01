@@ -11,6 +11,25 @@ DOMAIN-SUFFIX,img.bybit.com,PROXY
 DOMAIN-SUFFIX,cdn.bybit.com,PROXY
 DOMAIN-SUFFIX,help.bybit.com,PROXY
 DOMAIN-SUFFIX,blog.bybit.com,PROXY
+DOMAIN-SUFFIX,appsflyersdk.com,PROXY
+DOMAIN-SUFFIX,amazonaws.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN-SUFFIX,seabit.net,PROXY
+DOMAIN-SUFFIX,cloudfront.net,PROXY
+DOMAIN-SUFFIX,byd3c3.com,PROXY
+DOMAIN-SUFFIX,app-measurement.com,PROXY
+DOMAIN-SUFFIX,ws2.byapps.net,PROXY
+DOMAIN-SUFFIX,appsflyer.com,PROXY
+DOMAIN-SUFFIX,api3.byabcde.com,PROXY
+DOMAIN-SUFFIX,bybit-global.com,PROXY
+DOMAIN-SUFFIX,bybitglobal.com,PROXY
+DOMAIN-SUFFIX,bybitgum.com,PROXY
+DOMAIN-SUFFIX,affiliates.bybitx.global,PROXY
+DOMAIN-SUFFIX,bybit.global,PROXY
+DOMAIN-SUFFIX,byjbit-global,PROXY
+DOMAIN-SUFFIX,bybit.biz,PROXY
+DOMAIN-SUFFIX,bybdc6.com,PROXY
+DOMAIN-SUFFIX,byapps.net,PROXY
 
 # 默认策略，未匹配的也走代理
 FINAL,PROXY
